@@ -1,7 +1,7 @@
 return {
   regular = {
     black   = "#1a1a1a",
-    white   = "#ffffff",
+    white   = "#dfdfdf",
     red     = "#eb4d4b",
     green   = "#5faf00",
     yellow  = "#f6c744",
@@ -11,9 +11,10 @@ return {
 
     orange  = "#ed9164",
     pink    = "#fbaed2",
+    grey    = "#252525",
   },
   bright = {
-    black   = "#1a1a1a",
+    black   = "#303030",
     white   = "#ffffff",
     red     = "#f56664",
     green   = "#c0e17d",
@@ -24,5 +25,6 @@ return {
 
     orange  = "#ff9f80",
     pink    = "#ffbfd9",
+    grey    = "#777777",
   }
 }
