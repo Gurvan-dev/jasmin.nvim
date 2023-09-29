@@ -99,10 +99,10 @@ return {
   bufferline = {
     separator = inactive,
     current = {
-      guifg = c.regular.white,
-      guibg = c.regular.black,
-      ctermfg = cterm.white,
-      ctermbg = cterm.black,
+      guifg = c.regular.black,
+      guibg = c.regular.green,
+      ctermfg = cterm.black,
+      ctermbg = cterm.green,
     },
     current_modified = {
       guifg = c.regular.black,
