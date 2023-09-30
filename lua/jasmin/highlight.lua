@@ -45,7 +45,8 @@ local hl = {
               ctermbg = cterm.regular.red, ctermfg = cterm.regular.black },
   NonText     = { fg = c.bright.grey, ctermfg = cterm.bright.grey },
   SpecialKey  = { link = "NonText" },
-  MatchParen  = { bold = true, bg = c.regular.grey, ctermbg = c.bright.white },
+  MatchParen  = { bold = true, bg = c.regular.grey,
+                          ctermbg = cterm.bright.white },
 
   -- IncSearch
   Pmenu        = { link = "Search"    },
@@ -102,8 +103,8 @@ local hl = {
   GitSignsAdd    = { fg = c.regular.green, ctermfg = cterm.regular.green },
 
   -- Tree
-  NvimTreeOpenedFile   = { fg = c.regular.orange, ctermfg = c.regular.orange   },
-  NvimTreeGitNew       = { fg = c.regular.blue, ctermfg = c.regular.blue    },
+  NvimTreeOpenedFile   = { fg = c.regular.orange, ctermfg = cterm.regular.red   },
+  NvimTreeGitNew       = { fg = c.regular.blue, ctermfg = cterm.regular.blue    },
   NvimTreeGitRenamed   = { link = "NvimTreeGitNew" },
   NvimTreeWindowPicker = { fg = c.regular.black, bg = c.regular.blue,
                   ctermfg = cterm.regular.black, ctermbg = cterm.regular.blue },
