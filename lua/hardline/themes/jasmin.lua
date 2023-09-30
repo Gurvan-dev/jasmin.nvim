@@ -1,20 +1,11 @@
-local c = require "capucine.palette"
-local cterm = {
-  black   = 0,
-  white   = 1,
-  red     = 2,
-  green   = 3,
-  yellow  = 4,
-  blue    = 5,
-  magenta = 6,
-  cyan    = 7,
-}
+local c     = require "jasmin.palette"
+local cterm = require "jasmin.termcolor"
 
 local inactive = {
-  guifg = c.regular.white,
-  guibg =   c.regular.black,
-  ctermfg = cterm.white,
-  ctermbg = cterm.black,
+  guifg   = c.regular.white,
+  guibg   = c.regular.black,
+  ctermfg = cterm.regular.white,
+  ctermbg = cterm.regular.black,
 }
 
 return {
@@ -23,40 +14,40 @@ return {
     normal = {
       guifg   = c.regular.black,
       guibg   = c.regular.green,
-      ctermfg = cterm.black,
-      ctermbg = cterm.green,
+      ctermfg = cterm.regular.black,
+      ctermbg = cterm.regular.green,
     },
     insert = {
       guifg   = c.regular.black,
       guibg   = c.regular.blue,
-      ctermfg = cterm.black,
-      ctermbg = cterm.blue,
+      ctermfg = cterm.regular.black,
+      ctermbg = cterm.regular.blue,
     },
     replace = {
       guifg = c.regular.black,
       guibg = c.regular.cyan,
-      ctermfg = cterm.black,
-      ctermbg = cterm.cyan,
+      ctermfg = cterm.regular.black,
+      ctermbg = cterm.regular.cyan,
     },
     visual = {
       guifg   = c.regular.black,
       guibg   = c.regular.magenta,
-      ctermfg = cterm.black,
-      ctermbg = cterm.magenta,
+      ctermfg = cterm.regular.black,
+      ctermbg = cterm.regular.magenta,
     },
     command = {
       guifg   = c.regular.black,
       guibg   = c.regular.yellow,
-      ctermfg = cterm.black,
-      ctermbg = cterm.yellow,
+      ctermfg = cterm.regular.black,
+      ctermbg = cterm.regular.yellow,
     },
   },
   low = {
     active = {
       guifg = c.regular.white,
       guibg = c.regular.black,
-      ctermfg = cterm.white,
-      ctermbg = cterm.black,
+      ctermfg = cterm.regular.white,
+      ctermbg = cterm.regular.black,
     },
     inactive = inactive,
   },
@@ -64,8 +55,8 @@ return {
     active = {
       guifg = c.regular.white,
       guibg = c.regular.black,
-      ctermfg = cterm.white,
-      ctermbg = cterm.black,
+      ctermfg = cterm.regular.white,
+      ctermbg = cterm.regular.black,
     },
     inactive = inactive,
   },
@@ -73,8 +64,8 @@ return {
     active = {
       guifg = c.regular.white,
       guibg = c.regular.black,
-      ctermfg = cterm.white,
-      ctermbg = cterm.black,
+      ctermfg = cterm.regular.white,
+      ctermbg = cterm.regular.black,
     },
     inactive = inactive,
   },
@@ -82,8 +73,8 @@ return {
     active = {
       guifg = c.regular.black,
       guibg = c.regular.red,
-      ctermfg = cterm.black,
-      ctermbg = cterm.red,
+      ctermfg = cterm.regular.black,
+      ctermbg = cterm.regular.red,
     },
     inactive = inactive,
   },
@@ -91,8 +82,8 @@ return {
     active = {
       guifg = c.regular.black,
       guibg = c.regular.yellow,
-      ctermfg = cterm.black,
-      ctermbg = cterm.yellow,
+      ctermfg = cterm.regular.black,
+      ctermbg = cterm.regular.yellow,
     },
     inactive = inactive,
   },
@@ -101,26 +92,26 @@ return {
     current = {
       guifg = c.regular.black,
       guibg = c.regular.green,
-      ctermfg = cterm.black,
-      ctermbg = cterm.green,
+      ctermfg = cterm.regular.black,
+      ctermbg = cterm.regular.green,
     },
     current_modified = {
       guifg = c.regular.black,
       guibg = c.regular.blue,
-      ctermfg = cterm.black,
-      ctermbg = cterm.blue,
+      ctermfg = cterm.regular.black,
+      ctermbg = cterm.regular.blue,
     },
     background = {
       guifg = cterm.white,
       guibg = cterm.black,
-      ctermfg = cterm.white,
-      ctermbg = cterm.black,
+      ctermfg = cterm.regular.white,
+      ctermbg = cterm.regular.black,
     },
     background_modified = {
-      guifg = c.regular.black,
-      guibg = c.regular.blue,
-      ctermfg = cterm.black,
-      ctermbg = cterm.blue,
+      guifg = c.regular.blue,
+      guibg = c.regular.black,
+      ctermfg = cterm.regular.blue,
+      ctermbg = cterm.regular.black,
     },
   },
 }
