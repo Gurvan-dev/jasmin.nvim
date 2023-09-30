@@ -1,4 +1,5 @@
 local c = require "capucine.palette"
+
 local M = {}
 
 local hl = {
@@ -44,26 +45,26 @@ local hl = {
   Boolean      = { link = "Constant"      },
   Type         = { fg = c.bright.green    },
   Structure    = { fg = c.regular.blue    },
-  StorageClass = { link = "Type" },
-  Identifier   = { fg = c.regular.white },
+  StorageClass = { link = "Type"          },
+  Identifier   = { fg = c.regular.white   },
   PreProc      = { fg = c.regular.pink    },
   PreCondit    = { fg = c.regular.pink    },
   Include      = { fg = c.regular.pink    },
   Keyword      = { fg = c.regular.magenta },
   Define       = { fg = c.regular.pink    },
-  Typedef      = { link = "Type" },
+  Typedef      = { link = "Type"          },
   Exception    = { fg = c.regular.red     },
-  Conditional  = { link = "Keyword" },
-  Repeat       = { link = "Keyword" },
+  Conditional  = { link = "Keyword"       },
+  Repeat       = { link = "Keyword"       },
   Statement    = { fg = c.regular.magenta },
-  Macro        = { link = "PreProc" },
-  Error        = { fg = c.regular.red },
-  Label        = { link = "Conditional" },
-  Special      = { fg = c.regular.cyan },
-  SpecialChar  = { link = "Special" },
-  Function     = { fg = c.regular.blue },
-  Operator     = { link = "Normal" },
-  Title         = { fg = c.regular.magenta, bold = true },
+  Macro        = { link = "PreProc"       },
+  Error        = { fg = c.regular.red     },
+  Label        = { link = "Conditional"   },
+  Special      = { fg = c.regular.cyan    },
+  SpecialChar  = { link = "Special"       },
+  Function     = { fg = c.regular.blue    },
+  Operator     = { link = "Normal"        },
+  Title        = { fg = c.regular.cyan, bold = true },
   -- Tag          = colors.Green,
   -- Delimiter    = colors.LightGrey,
   Comment        = { fg = c.bright.grey },
@@ -83,33 +84,6 @@ local hl = {
   GitSignsChange = { fg = c.regular.blue },
   GitSignsAdd    = { fg = c.regular.green },
 
-  -- Nvimtree
-
-  -- Hardline
-  Hardline_bufferline_background = { fg = c.regular.black, bg = c.regular.black },
-  -- Hardline_bufferline_separator
-  -- Hardline_background_modified
-  Hardline_bufferline_current_modified = { fg = c.regular.black, bg = c.regular.blue },
-  Hardline_bufferline_current = { fg = c.regular.green, bg = c.regular.black },
-  Hardline_error_active   = { fg = c.regular.black, bg = c.regular.red    },
-  Hardline_error_inactive = { fg = c.regular.red,   bg = c.regular.black  },
-  Hardline_warning_active = { fg = c.regular.black, bg = c.regular.yellow },
-  -- Hardline_mode_replace =
-  Hardline_mode_visual   = { fg = c.regular.black, bg = c.regular.magenta },
-  -- Hardline_mode_inactive =
-  Hardline_mode_normal   = { fg = c.regular.black, bg = c.regular.green   },
-  Hardline_mode_insert   = { fg = c.regular.black, bg = c.regular.blue    },
-  Hardlinde_mode_command = { fg = c.regular.black, bg = c.regular.orange  },
-  Hardline_med_active    = { fg = c.bright.orange, bg = c.regular.black },
-  Hardline_med_inactive  = { link = "Normal" },
-  Hardline_high_active   = { link = "Normal" },
-  Hardline_high_inactive = { link = "Normal" },
-  Hardline_low_active    = { link = "Normal" },
-  Hardline_low_inactive  = { link = "Normal" },
-
-  -- Notes:
-  -- OCamlConstructor -> Constant
-  -- OCamlModPath -> Include
 }
 
 function M.setup ()
@@ -117,6 +91,7 @@ function M.setup ()
   for group, val in pairs(hl) do
     vim.api.nvim_set_hl(0, group, val)
   end
+
 end
 
 return M

@@ -46,9 +46,9 @@ return {
     },
     command = {
       guifg   = c.regular.black,
-      guibg   = c.regular.orange,
+      guibg   = c.regular.yellow,
       ctermfg = cterm.black,
-      ctermbg = cterm.orange,
+      ctermbg = cterm.yellow,
     },
   },
   low = {
