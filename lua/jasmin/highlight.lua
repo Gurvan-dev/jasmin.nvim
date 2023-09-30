@@ -40,6 +40,7 @@ local hl = {
   TabLineFill = { link = "Normal" },
   Directory   = { fg = c.regular.blue, bold= true,
              ctermfg = cterm.regular.blue },
+  ErrorMsg    = { bg = c.regular.red, fg = c.regular.white },
 
   -- IncSearch
   Pmenu        = { link = "Search"    },
@@ -79,7 +80,7 @@ local hl = {
   -- Tag          = colors.Green,
   -- Delimiter    = colors.LightGrey,
   Comment        = { fg = c.bright.grey },
-  SpecialComment = { link="Comment" },
+  SpecialComment = { link = "Comment" },
   Todo           = {   fg = c.regular.black,          bg = c.bright.cyan,
                   ctermfg = cterm.regular.black, ctermbg = cterm.bright.cyan },
 
@@ -97,15 +98,15 @@ local hl = {
 
   -- Tree
   NvimTreeOpenedFile   = { fg = c.regular.orange   },
-  NvimTreeGitNew       = { fg = c.regular.green    },
+  NvimTreeGitNew       = { fg = c.regular.blue    },
   NvimTreeGitRenamed   = { link = "NvimTreeGitNew" },
   NvimTreeWindowPicker = { fg = c.regular.white, bg = c.regular.blue },
   NvimTreeSymlink      = { fg = c.regular.yellow   },
   NvimTreeRootFolder   = { bold = true, fg = c.regular.cyan },
   NvimTreeGitDeleted   = { fg = c.regular.red },
-  NvimTreeGitDirty     = { fg = c.regular.green },
-  NvimTreeSpecialFile  = { underline = true, bold = true,
-                           fg =  c.regular.cyan },
+  NvimTreeGitDirty     = { fg = c.regular.blue },
+  NvimTreeSpecialFile  = { underline = true, bold = true },
+
 
 }
 
