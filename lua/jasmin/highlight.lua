@@ -15,6 +15,8 @@ local hl = {
   Cursor      = { reverse = true                                              },
   -- WarningMsg
   TabLine      = { link = "Normal"                                            },
+  TabLineSel   = { bg = c.regular.green,          fg = c.regular.black,
+              ctermbg = cterm.regular.green, ctermfg = cterm.regular.black    },
   LineNr       = { fg = c.bright.grey,            bg = c.regular.black,
               ctermfg = cterm.regular.white, ctermbg = cterm.regular.black    },
   LineNrAbove  = { link = "LineNr"                                            },
