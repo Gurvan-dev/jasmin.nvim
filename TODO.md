@@ -2,5 +2,5 @@
 
 * Support for more plugins
 * Change regular cyan color
-* Add the 16 colors in the README
+* Bright blue might be too similar to regular blue
 
