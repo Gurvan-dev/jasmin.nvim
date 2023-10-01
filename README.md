@@ -1,5 +1,8 @@
 # Jasmin
 
+A Work in progress colorscheme for neovim.
+See [TODO](./TODO.md) for a list of remaining task.
+
 ## Installation
 
 Use [lazy.nvim](https://github.com/folke/lazy.nvim).
@@ -10,9 +13,8 @@ Jasmin is distributed under the [GNU LGPL](./LICENSE).
 
 ## Colors
 
-Jasmin mainly relies on 16 colors. If you use a 16-color terminal, it will fall
-back to these colors if you configurate your terminal accordingly.
-You can set your terminal color to match them easily.
+Jasmin mainly relies on 16 colors.
+You can set your terminal color to match these for a uniform look:
 
 | Code | Color                                                         | Hex code | Code | Color                                                         | Hex Code |
 |:----:|:-------------------------------------------------------------:|:--------:|:----:|:-------------------------------------------------------------:|:--------:|
