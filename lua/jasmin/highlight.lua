@@ -56,10 +56,10 @@ local hl = {
   VertSplit    = { fg = c.bright.black,          bg = c.regular.black,
               ctermfg = cterm.bright.black, ctermbg = cterm.regular.black     },
 
-  DiffAdd     = { fg = c.bright.white, bg = c.bright.green },
-  DiffChange  = { fg = c.bright.white, bg = c.bright.cyan  },
-  DiffDelete  = { fg = c.bright.white, bg = c.bright.red   },
-  DiffText    = { fg = c.bright.white, bg = c.bright.cyan   },
+  DiffAdd     = { fg = c.bright.white, bg = c.bright.green                    },
+  DiffChange  = { fg = c.bright.white, bg = c.bright.cyan                     },
+  DiffDelete  = { fg = c.bright.white, bg = c.bright.red                      },
+  DiffText    = { fg = c.bright.white, bg = c.bright.cyan                     },
 
   -- Syntax
   String       = { link = "Constant"                                          },
@@ -83,7 +83,7 @@ local hl = {
   Repeat       = { link = "Keyword"                                           },
   Statement    = { link = "Keyword"                                           },
   Macro        = { link = "PreProc"                                           },
-  Error        = { fg = c.regular.red,     ctermfg = cterm.regular.red        },
+  Error        = { fg = c.bright.red,     ctermfg = cterm.bright.red          },
   Label        = { link = "Conditional"                                       },
   Special      = { fg = c.bright.cyan,    ctermfg = cterm.bright.cyan         },
   SpecialChar  = { link = "Special"                                           },
@@ -115,7 +115,7 @@ local hl = {
   NvimTreeGitNew       = { fg = c.regular.blue, ctermfg = cterm.regular.blue  },
   NvimTreeGitRenamed   = { link = "NvimTreeGitNew"                            },
   NvimTreeWindowPicker = { fg = c.regular.black,      bg = c.bright.blue,
-                  ctermfg = cterm.regular.black, ctermbg = cterm.bright.blue },
+                  ctermfg = cterm.regular.black, ctermbg = cterm.bright.blue  },
   NvimTreeSymlink      = { fg = c.regular.yellow,
                       ctermfg = cterm.regular.yellow                          },
   NvimTreeRootFolder   = { bold = true, fg = c.regular.cyan,
