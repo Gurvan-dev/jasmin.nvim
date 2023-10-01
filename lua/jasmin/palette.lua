@@ -6,7 +6,7 @@ return {
     yellow  = "#f6c744",
     blue    = "#86baeb",
     magenta = "#a47de9",
-    cyan    = "#80f6f0",
+    cyan    = "#90e0ef",
     white   = "#dfdfdf",
 
     orange  = "#ed9164",
@@ -20,7 +20,7 @@ return {
     yellow  = "#f9da6a",
     blue    = "#7cb5f7",
     magenta = "#b58cef",
-    cyan    = "#99faf2",
+    cyan    = "#bde0fe",
     white   = "#ffffff",
 
     orange  = "#ff9f80",

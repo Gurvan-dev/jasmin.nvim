@@ -24,8 +24,8 @@ return {
       ctermbg = cterm.regular.blue,
     },
     replace = {
-      guifg = c.regular.black,
-      guibg = c.regular.cyan,
+      guifg   = c.regular.black,
+      guibg   = c.regular.cyan,
       ctermfg = cterm.regular.black,
       ctermbg = cterm.regular.cyan,
     },
@@ -44,8 +44,8 @@ return {
   },
   low = {
     active = {
-      guifg = c.regular.white,
-      guibg = c.regular.black,
+      guifg   = c.regular.white,
+      guibg   = c.regular.black,
       ctermfg = cterm.regular.white,
       ctermbg = cterm.regular.black,
     },
@@ -53,17 +53,17 @@ return {
   },
   med = {
     active = {
-      guifg = c.regular.white,
-      guibg = c.regular.black,
-      ctermfg = cterm.regular.white,
+      guifg   = c.bright.yellow,
+      guibg   = c.regular.black,
+      ctermfg = cterm.bright.yellow,
       ctermbg = cterm.regular.black,
     },
     inactive = inactive,
   },
   high = {
     active = {
-      guifg = c.regular.white,
-      guibg = c.regular.black,
+      guifg   = c.regular.white,
+      guibg   = c.regular.black,
       ctermfg = cterm.regular.white,
       ctermbg = cterm.regular.black,
     },
@@ -71,8 +71,8 @@ return {
   },
   error = {
     active = {
-      guifg = c.regular.black,
-      guibg = c.regular.red,
+      guifg   = c.regular.black,
+      guibg   = c.regular.red,
       ctermfg = cterm.regular.black,
       ctermbg = cterm.regular.red,
     },
@@ -80,8 +80,8 @@ return {
   },
   warning = {
     active = {
-      guifg = c.regular.black,
-      guibg = c.regular.yellow,
+      guifg   = c.regular.black,
+      guibg   = c.regular.yellow,
       ctermfg = cterm.regular.black,
       ctermbg = cterm.regular.yellow,
     },
@@ -90,26 +90,26 @@ return {
   bufferline = {
     separator = inactive,
     current = {
-      guifg = c.regular.black,
-      guibg = c.regular.green,
+      guifg   = c.regular.black,
+      guibg   = c.regular.green,
       ctermfg = cterm.regular.black,
       ctermbg = cterm.regular.green,
     },
     current_modified = {
-      guifg = c.regular.black,
-      guibg = c.regular.blue,
+      guifg   = c.regular.black,
+      guibg   = c.regular.blue,
       ctermfg = cterm.regular.black,
       ctermbg = cterm.regular.blue,
     },
     background = {
-      guifg = cterm.white,
-      guibg = cterm.black,
+      guifg   = cterm.white,
+      guibg   = cterm.black,
       ctermfg = cterm.regular.white,
       ctermbg = cterm.regular.black,
     },
     background_modified = {
-      guifg = c.regular.blue,
-      guibg = c.regular.black,
+      guifg   = c.regular.blue,
+      guibg   = c.regular.black,
       ctermfg = cterm.regular.blue,
       ctermbg = cterm.regular.black,
     },
