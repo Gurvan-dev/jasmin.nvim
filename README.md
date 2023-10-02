@@ -1,7 +1,10 @@
 # Jasmin
 
-A Work in progress colorscheme for neovim.
-See [TODO](./TODO.md) for a list of remaining task.
+A simple colorscheme for neovim :)
+
+## Showcase
+
+![ocaml](./imgs/nvim.png)
 
 ## Installation
 
