@@ -28,8 +28,7 @@ local hl = {
   ColorColumn  = { link = "CursorLine"                                        },
   Visual       = { link = "CursorLine"                                        },
   Whitespace   = { fg = c.bright.yellow, ctermfg = cterm.bright.yellow        },
-  Search       = { fg = c.regular.white,          bg = c.bright.black,
-              ctermfg = cterm.regular.white, ctermbg = cterm.bright.black     },
+  Search       = { bg = c.bright.black, ctermbg = cterm.bright.black     },
   CurSearch    = { bold = true,
                     bg = c.regular.black,     ctermbg = cterm.bright.blue     },
 
