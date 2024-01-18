@@ -4,8 +4,6 @@ A simple colorscheme for Neovim, with support for different plugins !
 
 ![ocaml](./imgs/ocaml.png)
 
-![go](./imgs/go.png)
-
 ## 📒 License
 
 `jasmin` is distributed under the [MIT License](./LICENSE).
