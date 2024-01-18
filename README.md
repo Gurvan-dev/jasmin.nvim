@@ -18,8 +18,9 @@ For example, with [lazy.nvim](https://github.com/folke/lazy.nvim):
 { "gurvan/jasmin.nvim" },
 ```
 
-You can then simply use it with
-```
+You can then simply use it with:
+
+```vim
 colorscheme jasmin
 ```
 
