@@ -1,23 +1,32 @@
-# Jasmin
+# 💐 Jasmin
 
-A simple colorscheme for neovim :)
+A simple colorscheme for Neovim, with support for different plugins !
 
-## Showcase
-
-![ocaml](./imgs/nvim.png)
-
-## Installation
-
-Use [lazy.nvim](https://github.com/folke/lazy.nvim).
+![ocaml](./imgs/ocaml.png)
 
 ## License
 
-Jasmin is distributed under the [MIT License](./LICENSE).
+`jasmin` is distributed under the [MIT License](./LICENSE).
+
+## Usage
+
+You must first install `jasmin` with your favorite package manager.
+
+For example, with [lazy.nvim](https://github.com/folke/lazy.nvim):
+
+```lua
+{ "gurvan/jasmin.nvim" },
+```
+
+You can then simply use it with
+```
+colorscheme jasmin
+```
 
 ## Colors
 
-Jasmin mainly relies on 16 colors.
-You can set your terminal color to match these for a uniform look:
+`jasmin` mainly relies on 16 colors.
+You can easily set your terminal color to match these for a uniform look:
 
 | Code | Color                                                         | Hex code | Code | Color                                                         | Hex Code |
 |:----:|:-------------------------------------------------------------:|:--------:|:----:|:-------------------------------------------------------------:|:--------:|
@@ -30,3 +39,7 @@ You can set your terminal color to match these for a uniform look:
 | 6    | ![#90e0ef](https://place-hold.it/100x40/90e0ef/000000?text=+) | #90e0ef  | 14   | ![#bde0fe](https://place-hold.it/100x40/bde0fe/000000?text=+) | #bde0fe  |
 | 7    | ![#dfdfdf](https://place-hold.it/100x40/dfdfdf/000000?text=+) | #dfdfdf  | 15   | ![#ffffff](https://place-hold.it/100x40/ffffff/000000?text=+) | #ffffff  |
 
+## Plugin support
+
+* [hardline](https://github.com/ojroques/nvim-hardline)
+* [lualine](https://github.com/nvim-lualine/lualine.nvim)

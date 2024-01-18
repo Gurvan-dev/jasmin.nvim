@@ -1,3 +1,6 @@
+-- Copyright 2024 Gurvan Debaussart (https://debauss.art) ----------------------
+-- Distributed under the MIT license
+
 local c     = require "jasmin.palette"
 local cterm = require "jasmin.termcolor"
 
