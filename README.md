@@ -12,7 +12,7 @@ Use [lazy.nvim](https://github.com/folke/lazy.nvim).
 
 ## License
 
-Jasmin is distributed under the [GNU LGPL](./LICENSE).
+Jasmin is distributed under the [MIT License](./LICENSE).
 
 ## Colors
 
