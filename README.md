@@ -15,7 +15,7 @@ You must first install `jasmin` with your favorite package manager.
 For example, with [lazy.nvim](https://github.com/folke/lazy.nvim):
 
 ```lua
-{ "gurvan/jasmin.nvim" },
+{ "gurvan-dev/jasmin.nvim" },
 ```
 
 You can then simply use it with:
