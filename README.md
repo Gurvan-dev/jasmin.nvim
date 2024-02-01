@@ -2,7 +2,7 @@
 
 A simple colorscheme for Neovim, with support for different plugins !
 
-![ocaml](./imgs/ocaml.png)
+![ocaml](./imgs/ocaml.avif)
 
 ## 📒 License
 
