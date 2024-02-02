@@ -116,10 +116,10 @@ local hl = {
   GitSignsChange = { fg = c.regular.blue,  ctermfg = cterm.regular.blue       },
   GitSignsAdd    = { fg = c.regular.green, ctermfg = cterm.regular.green      },
 
-  -- Tree
-  NvimTreeOpenedFile   = { fg = c.regular.orange, ctermfg = cterm.regular.red },
-  NvimTreeGitNew       = { fg = c.regular.blue, ctermfg = cterm.regular.blue  },
-  NvimTreeGitRenamed   = { link = "NvimTreeGitNew"                            },
+  -- NvimTree (Legacy)
+  NvimTreeOpenedFile   = { fg = c.regular.orange, ctermfg = cterm.regular.red  },
+  NvimTreeGitNew       = { fg = c.regular.blue,   ctermfg = cterm.regular.blue },
+  NvimTreeGitRenamed   = { link = "NvimTreeGitNew"                             },
   NvimTreeWindowPicker = { fg = c.regular.black,      bg = c.bright.blue,
                   ctermfg = cterm.regular.black, ctermbg = cterm.bright.blue  },
   NvimTreeSymlink      = { fg = c.regular.yellow,
@@ -129,6 +129,12 @@ local hl = {
   NvimTreeGitDeleted   = { fg = c.regular.red,  ctermfg = cterm.regular.red   },
   NvimTreeGitDirty     = { fg = c.regular.blue, ctermfg = cterm.regular.blue  },
   NvimTreeSpecialFile  = { underline = true, bold = true                      },
+
+  -- NvimTree (Overhaul)
+  NvimTreeGitNewIcon     = { link = "NvimTreeGitNew"     },
+  NvimTreeGitRenamedIcon = { link = "NvimTreeGitNew"     },
+  NvimTreeGitDeletedIcon = { link = "NvimTreeGitDeleted" },
+  NvimTreeGitDirtyIcon   = { link = "NvimTreeGitDirt"    },
 
 }
 
