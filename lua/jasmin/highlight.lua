@@ -135,6 +135,7 @@ local hl = {
   NvimTreeGitRenamedIcon = { link = "NvimTreeGitNew"     },
   NvimTreeGitDeletedIcon = { link = "NvimTreeGitDeleted" },
   NvimTreeGitDirtyIcon   = { link = "NvimTreeGitDirty"   },
+  NvimTreeGitStagedIcon  = { fg   = c.regular.green      },
 
 }
 
