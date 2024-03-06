@@ -4,7 +4,7 @@ A simple colorscheme for Neovim, with support for different plugins !
 
 ![ocaml](./imgs/ocaml.avif)
 
-## 📒 License
+## ⚖️  License
 
 `jasmin` is distributed under the [MIT License](./LICENSE).
 
@@ -18,7 +18,7 @@ For example, with [lazy.nvim](https://github.com/folke/lazy.nvim):
 { "gurvan-dev/jasmin.nvim" },
 ```
 
-You can then simply use it with:
+You can then simply use it like any other colorscheme with:
 
 ```vim
 colorscheme jasmin
